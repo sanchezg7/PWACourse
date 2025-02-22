@@ -5,3 +5,13 @@ if ('serviceWorker' in navigator) {
             console.log('Service worker successfully registered!');
         });
 }
+
+const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Done!!!!')
+    }, 3000);
+})
+
+promise.then((text) => {
+    console.log(text);
+});

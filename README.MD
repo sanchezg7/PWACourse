@@ -72,4 +72,6 @@ It can function as a network proxy
   - `activate` event raised
   - SW now controls all pages of a Scope
 - `sw.js` is registered in the browser
-- 
+
+# Install PWA
+https://web.dev/articles/customize-install
